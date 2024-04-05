@@ -1,0 +1,44 @@
+{
+  "name": "@miervaldis42/oc-p14-hrnet-package",
+  "version": "1.0.0",
+  "description": "Create a custom modal using React for HRnet project.",
+  "author": "miervaldis42",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miervaldis42/oc-p14-hrnet-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/miervaldis42/oc-p14-hrnet-package/issues"
+  },
+  "homepage": "https://github.com/miervaldis42/oc-p14-hrnet-package#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@miervaldis42"
+  },
+  "keywords": [
+    "oc",
+    "openclassrooms",
+    "p14",
+    "hrnet",
+    "package",
+    "react",
+    "toast",
+    "modal"
+  ],
+  "scripts": {
+    "test": "exit 0",
+    "build": "tsc"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.4",
+    "@types/react": "^18.2.74",
+    "typescript": "^5.4.4"
+  }
+}
